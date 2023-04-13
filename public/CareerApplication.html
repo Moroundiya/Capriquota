@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/src/css/navbar.css">
+    <link rel="stylesheet" href="../assets/src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="icon" href="../assets/src/images/favicon.png">
+    <title>Career Application </title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light cqt-navbar">
+        <div class="container-fluid cqt-navbar-inner">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/src/images/logo.png" alt="" class="navbar-logo">
+            </a>
+            <div id="nav-icon-anim" onclick="changeStyle()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="shownavbar" id="collapsibleNavId22">
+                <div class="shownavbarcontents">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-mobile" href="For-company.html">For Company</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="For-designers.html">For Engineers</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="For-designers.html">For Designers</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link  join-cqt-mobile" href="cqtRegistration.html">Join CQT</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="cqtLogin.html">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-company.html">For Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-engineers.html">For Engineers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-designers.html">For Designers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link join-cqt" href="cqtRegistration.html">Join CQT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cqtLogin.html">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-container row container-fluid" id="company-banner-container" style="padding-bottom: 2em;">
+        <h2 class="personal-info-title">Personal Information</h2>
+        <form action="CareerApplicationConfirmation.html" method="post" id="career-app-form">
+            <input type="text" placeholder="Full Name *" class="career-details-input" required>
+            <input type="email" placeholder="Email *" class="career-details-input" required>
+            <input type="tel" placeholder="Contact Number *" class="career-details-input" required>
+            <input type="url" placeholder="LinkedIn Profile *" class="career-details-input">
+            <div class="cv-upload-container" onclick="cvFileName()">
+                <label for="Resume/CV" class="cv-upload-label">
+                    <span id="upload-label"> Resume/CV** </span> &nbsp; &nbsp; &nbsp;
+                </label>
+                <div class="upload-btn-container">
+                    <button class="select-cv-btn">Upload
+                    </button>
+                    <input type="file" class="upload-cv-btn" id="upload-cv-btn"> &nbsp;&nbsp;
+                </div>
+                <span id="cv-file-name">No File Chosen.</span>
+            </div>
+            <p class="upload-comment">File Not More Than 5mb </p>
+            <p class="upload-comment2">*Required</p>
+            <p class="upload-comment2">**Required At Least Either</p>
+            <div class="select-option-container pt-5">
+                <h3 class="pb-2 select-question-title">Our Office Is In Nigeria. Where Is Your Location</h3>
+                <div class="select-option-each">
+                    <input type="radio" name="location" class="option-btn-select">
+                    <label for="in-nigeria" name="in-nigeria" class="each-select-question-label">I Am Already In
+                        Nigeria</label>
+                </div>
+                <div class="select-option-each">
+                    <input type="radio" name="location" class="option-btn-select">
+                    <label for="relocate" name="relocate" class="each-select-question-label">I Will Be Happy To Relocate
+                        To Nigeria For This Role</label>
+                </div>
+                <div class="select-option-each">
+                    <input type="radio" name="location" class="option-btn-select">
+                    <label for="No-relocate" name="No-relocate" class="each-select-question-label">i wont be able to
+                        relocate to nigeria</label>
+                </div>
+            </div>
+            <div class="select-option-container">
+                <h3 class="pb-2 select-question-title">Are You Looking For A Full Time Role?</h3>
+                <div class="select-option-each">
+                    <input type="radio" name="work-hour" class="option-btn-select">
+                    <label for="40hrs" name="40hrs" class="each-select-question-label">yes, i can work for 40 hours a
+                        week</label>
+                </div>
+                <div class="select-option-each">
+                    <input type="radio" name="work-hour" class="option-btn-select">
+                    <label for="PT-25hrs" name="PT-25hrs" class="each-select-question-label">part time but i can work
+                        for 25 hours a week</label>
+                </div>
+                <div class="select-option-each">
+                    <input type="radio" name="work-hour" class="option-btn-select">
+                    <label for="Less-25hrs" name="Less-25hrs" class="each-select-question-label">part time but i can
+                        only work for less than 25 hours a week</label>
+                </div>
+                <div class="select-option-each">
+                    <input type="radio" name="work-hour" class="option-btn-select">
+                    <label for="intern" name="intern" class="each-select-question-label">i am looking for a short term
+                        internship for less than 3 months</label>
+                </div>
+            </div>
+            <div class="select-option-container">
+                <h3 class="pb-2 select-question-title">When Can You Start Working With Capriquota?</h3>
+                <div class="select-option-each">
+                    <input type="radio" name="start-date" class="option-btn-select">
+                    <label for="immediately" name="immediately" class="each-select-question-label">Immediately</label>
+                </div>
+                <div class="select-option-each">
+                    <input type="radio" name="start-date" class="option-btn-select">
+                    <label for="1month" name="1month" class="each-select-question-label">within a month</label>
+                </div>
+                <div class="select-option-each">
+                    <input type="radio" name="start-date" class="option-btn-select">
+                    <label for="1-2months" name="1-2months" class="each-select-question-label">within 1-2 months</label>
+                </div>
+                <div class="select-option-each">
+                    <input type="radio" name="start-date" class="option-btn-select">
+                    <label for="3months" name="3months" class="each-select-question-label">over 3 months</label>
+                </div>
+            </div>
+            <button class="submit-option-question" type="submit">Next</button>
+            <p class="upload-comment3">
+                Apologize, please fill the spaces with the required answer and documents before you can proceed
+            </p>
+        </form>
+    </div>
+    <section class="footer">
+        <img src="../assets/src/images/scroll-top.svg" alt="" class="scroll-top-img" onclick="topFunction()">
+        <footer class="">
+            <img src="../assets/src/images/shape.png" alt="" class="footer-icon-style">
+            <div class="row first-footer-section container-fluid">
+                <div class="col-lg-6 world-class-talent-div">
+                    <h1 class="world-class-talent-title">
+                        Leverage world class talent.
+                    </h1>
+                    <p class="world-class-talent-text">
+                        We are the world's largest and most widely spread network of vetted talents, ready to take on
+                        your most important tasks.
+                    </p>
+                </div>
+                <div class="row col-lg-6 join-cqt-div">
+                    <div class="row button-hire-join-container">
+                        <div class="col-lg-6 col-md-6 col-12 hire-a-talent-container">
+                            <a href="HireTeam.html">
+                                <button class="hire-a-talent-btn hiretalent_1">Hire A Talent</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 join-cqt-container">
+                            <a href="cqtRegistration.html">
+                                <button class="join-cqt-btn joincqt_1">Join CQT</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu-container-all row container-fluid">
+                <div class="footer-logo-section col-lg-4 col-md-12 col-sm-12 ">
+                    <a href="index.html">
+                        <img src="../assets/src/images/logo.png" alt="" class="footer-menu-logo">
+                    </a>
+                    <p class="footer-menu-social-icon">
+                        <a class="foot_a_" target="_blank" rel="noopener noreferrer"
+                            href="https://ng.linkedin.com/company/capriquota">
+                            <span class="iconify social-icon" data-icon="akar-icons:linkedin-fill"></span> &nbsp; &nbsp;
+                        </a>
+                        <a class="foot_a_" target="_blank" rel="noopener noreferrer"
+                            href="https://www.instagram.com/capriquota">
+                            <span class="iconify social-icon" data-icon="akar-icons:instagram-fill"></span> &nbsp;
+                            &nbsp;
+                        </a>
+                        <a class="foot_a_" target="_blank" rel="noopener noreferrer"
+                            href="https://facebook.com/Capriquota">
+                            <span class="iconify social-icon" data-icon="cib:facebook-f"></span> &nbsp; &nbsp;
+                        </a>
+                        <a class="foot_a_" target="_blank" rel="noopener noreferrer"
+                            href="https://twitter.com/capriquota">
+                            <span class="iconify social-icon" data-icon="akar-icons:twitter-fill"></span>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3 first-footer-menu-title-div">
+                    <p class="first-footer-menu-title">Customers</p>
+                    <a class="footers-customers-categories" href="HireEngineer.html">Hire Engineer</a>
+                    <a class="footers-customers-categories" href="HireDesigner.html">Hire Designer </a>
+                    <a class="footers-customers-categories" href="HireTeam.html">Hire Team</a>
+                    <a class="footers-customers-categories" href="HireSprint.html">Hire Sprint </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3 first-footer-menu-title-div">
+                    <p class="first-footer-menu-title">Join Capriquota</p>
+                    <a class="footers-customers-categories" href="For-engineers.html">As Engineer</a>
+                    <a class="footers-customers-categories" href="For-designers.html">As Designers </a>
+                    <a class="footers-customers-categories" href="ApplyAsIntern.html">As Intern</a>
+                    <a class="footers-customers-categories" href="CareerJobListing.html">As Non-Tech</a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3 first-footer-menu-title-div">
+                    <p class="first-footer-menu-title">Company</p>
+                    <a class="footers-customers-categories" href="About.html">About</a>
+                    <a class="footers-customers-categories" href="cqtContactUs.html">Contact Us</a>
+                    <a class="footers-customers-categories" href="#">CLP</a>
+                    <a class="footers-customers-categories" href="Life@Capriquota.html">Life @ Capriquota </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3 first-footer-menu-title-div">
+                    <p class="first-footer-menu-title">Info</p>
+                    <a class="footers-customers-categories" href="cqtFAQ.html">FAQ</a>
+                    <a class="footers-customers-categories" href="cqtPress.html">Press</a>
+                    <a class="footers-customers-categories" href="cqtBlog.html">Blog </a>
+                    <a class="footers-customers-categories" href="cqtEvent.html">Events</a>
+                </div>
+            </div>
+        </footer>
+        <hr class="footer-divided">
+        <div class="row subfooter-menu-container container-fluid">
+            <p class="copyright-text col-lg-4">
+                Copyright © 2016 - 2022. All rights reserved.
+            </p>
+            <p class="privacy-policy-text col-lg-2">
+                <a class="foot_a_" href="Privacy&Policy.html">Privacy & Policy </a>
+            </p>
+            <p class="terms-conditions-text col-lg-2">
+                <a class="foot_a_" href="TermsAndConditions.html">Terms & Conditions</a>
+            </p>
+            <p class="code-of-conduct-text col-lg-2">
+                <a class="foot_a_" href="CodeOfConducts.html"> Code of Conducts </a>
+            </p>
+            <p class="code-of-conduct-text col-lg-2">
+                <a class="foot_a_" href="cqtMediaKits.html">Media Kit </a>
+            </p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="../assets/src/owl-carousel/js/script.js"></script>
+    <script src="../assets/src/owl-carousel/js/navbar.js"></script>
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>

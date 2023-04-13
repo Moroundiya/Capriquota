@@ -1,0 +1,347 @@
+
+
+
+
+
+/*common style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.icons_cont{
+  text-align: center;
+}
+
+
+.round_icon_img{
+  border-radius:50%;
+  box-shadow: 0 0 6px rgba(0,0,0,.25);
+  background: #fff;
+  width:100px !important;
+  height: 100px;
+  padding: 16px;
+  margin: 15px auto !important;
+}
+
+.round_icon_img i{
+   font-size: 70px;
+    color: #e0571d;
+
+}
+
+
+
+/* Circle */
+.hover15 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0px !important;
+    overflow: hidden;
+
+}
+
+.hover15::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(244,229,172,.4);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.hover15:hover::before {
+    -webkit-animation: circle .75s;
+    /* animation: circle .75s; */
+}
+
+@-webkit-keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+@keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+.owl-carousel  .owl-nav .owl-prev:focus,
+.owl-carousel  .owl-nav .owl-next:focus {
+  outline:none;
+}
+
+
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel button.owl-dot{
+  outline: none;
+
+}
+
+
+/*common styling end*/
+
+/*------/ Owl carousel /------*/
+
+
+
+/*carousel_se_02 start*/
+.carousel_se_02{
+    overflow: hidden;
+}
+
+
+.carousel_se_02 .product-grid3{
+  border:none;
+  box-shadow: none;
+}
+
+.carousel_se_02 .owl-theme .owl-dots {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.carousel_se_02 .owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+}
+
+.carousel_se_02  .owl-theme .owl-dots .owl-dot span {
+    width: 9px;
+    height: 9px;
+    margin: 4px;
+    border: 2px solid #94a5b4;
+    display: block;
+    -webkit-backface-visibility: visible;
+    -webkit-transition: opacity 200ms ease;
+    -moz-transition: opacity 200ms ease;
+    -ms-transition: opacity 200ms ease;
+    -o-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.carousel_se_02  .owl-theme .owl-dots .owl-dot:hover span {
+     border-color: #3C63B0;
+}
+
+.carousel_se_02  .owl-theme .owl-dots .owl-dot.active span {
+  border-color: #3C63B0;
+}
+
+.carousel_se_02  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 42%;
+    right: -40px;
+    padding: 0px 1px !important;
+    background: rgb(255, 255, 255);
+    display: none !important;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3C63B0;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+    
+}
+.carousel_se_02  .owl-carousel .owl-nav button.owl-next:hover {
+    background:#3C63B0;
+    color: #fff;
+}
+.carousel_se_02  .owl-carousel .owl-nav button.owl-prev {
+   position: absolute;
+    top: 42%;
+    left: -40px;
+    padding: 0px 1px !important;
+    background: rgb(255, 255, 255);
+    display: none !important;
+    transform: translateY(-50%);
+   border-radius: 5px;
+   font-size: 32px;
+    line-height: 32px;
+    color: #3C63B0;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+}
+.carousel_se_02  .owl-carousel .owl-nav button.owl-prev:hover {
+    background:#3C63B0;
+    color: #fff;
+}
+.carousel_se_02 .owl-arrow .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.8rem;
+  display: none !important;
+}
+
+.carousel_se_02 .owl-arrow .owl-nav .owl-prev,
+.carousel_se_02 .owl-arrow .owl-nav .owl-next {
+  display: inline-block;
+  transition: all 0.6s ease-in-out;
+  color: #000000;
+  display: none !important;
+}
+
+.hover15 {
+ position: relative;
+}
+
+.slide1 {
+  height: 280px;
+  width: 100%;
+  background-image: url('../images/review-img-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.slide2 {
+  height: 280px;
+  width: 100%;
+  background-image: url('../images/review-img-2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.slide3 {
+  height: 280px;
+  width: 100%;
+  background-image: url('../images/review-img-3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.slide4 {
+  height: 280px;
+  width: 100%;
+  background-image: url('../images/review-img-4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.overlay-color {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(58, 58, 58, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.write-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  color: #ffffff;
+  padding: 30px 15px;
+}
+
+.overlay-title {
+  margin-bottom: 0;
+}
+
+.overlay-occupation {
+  font-size: 14px;
+}
+
+.overlay-info {
+  font-style: italic;
+  line-height: 1.2;
+  font-size: 13.5px;
+}
+
+.overlay-watch-video {
+  margin-top: 80px;
+}
+
+
+/*media query start */
+
+/*less than 575px*/
+@media only screen and (max-width:380px)
+{
+ 
+}
+
+
+/*less than 575px*/
+@media only screen and (max-width:575px)  and (min-width: 380px)
+{
+  
+}
+
+/*less than 767px*/
+@media only screen and (max-width:768px) and (min-width:575px)
+{
+ 
+}
+/*less then 992px and less than 768*/
+@media only screen and (max-width:993px) and (min-width:768px)
+{
+  
+
+    
+}
+
+/*less then1140px and less than 993*/
+@media only screen and (max-width:1140px) and (min-width: 993px)
+{
+  
+}
+
+@media only screen and (max-width:1366px) and (min-width: 1141px)
+{
+  
+}
+
+
+
+
+
+/*end of media query

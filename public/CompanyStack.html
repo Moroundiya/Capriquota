@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/src/css/navbar.css">
+    <link rel="stylesheet" href="../assets/src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="icon" href="../assets/src/images/favicon.png">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/src/owl-carousel/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/src/owl-carousel/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="../assets/src/owl-carousel/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../assets/src/owl-carousel/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/src/owl-carousel/css/style.css">
+    <script src="../assets/src/owl-carousel/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/src/owl-carousel/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/src/owl-carousel/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="../assets/src/owl-carousel/js/carausol_slider.js"></script>
+    <title>Company Stack</title>
+</head>
+<body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light cqt-navbar">
+        <div class="container-fluid cqt-navbar-inner">
+            <a class="navbar-brand" href="index.html">
+                <img src="../assets/src/images/logo.png" alt="" class="navbar-logo">
+            </a>
+            <div id="nav-icon-anim" onclick="changeStyle()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="shownavbar" id="collapsibleNavId22">
+                <div class="shownavbarcontents">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-mobile" href="For-company.html">For Company</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="For-engineers.html">For Engineers</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="For-designers.html">For Designers</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link  join-cqt-mobile" href="cqtRegistration.html">Join CQT</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="cqtLogin.html">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-company.html">For Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-engineers.html">For Engineers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-designers.html">For Designers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link join-cqt" href="cqtRegistration.html">Join CQT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cqtLogin.html">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- BANNER SECTION -->
+    <div class="banner-container row container-fluid mb-5" id="company-banner-container">
+        <div class="col-lg-5 cqt-first-banner">
+            <h1 class="banner-heading-text apply-developer-heading" id="for-company-banner-title">Hire <span class="nameofit">AWS</span> <span class="kind">developers</span> of
+                Silicon Valley standard for your team</h1>
+            <p class="banner-desc-text" id="for-company-banner-desc-text">
+                Hire the best remote AWS developer in 2-3 days. Work with top-quality, pre-vetted, timezone-friendly
+                Android developers at unbeatable prices with CQT.
+            </p>
+            <form action="HireTeam.html" method="post">
+                <button class="banner-hire-btn hiretalent">Hire Developer</button>
+            </form>
+        </div>
+        <div class="col-lg-7 cqt-image-carousel" id="apply-dev-logo-container">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner" data-bs-interval="300">
+                    <div class="carousel-item active">
+                        <img src="../assets/src/images/aws.svg" class="img-placeholder" alt="..." id="aws-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" anime3 container-fluid rigo-bg mt-5 hire-company-stack-container">
+        <h2 class="hire-the-top">Hire the top 3% of 5000+ engineers and Designers who have applied to CQT</h2>
+        <div class="row pt-space">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="apply-dev-profile-card profile-card-each  profile-card-space">
+                    <div class="apply-dev-profile-card-image-container">
+                        <img src="../assets/src/images/apply-dev-profile-img.png" alt=""
+                            class="apply-dev-profile-card-image">
+                        <div class="apply-dev-profile-card-name-div">
+                            <p class="apply-dev-profile-card-name-title">
+                                Blazin Shado
+                            </p>
+                            <p class="apply-dev-profile-card-country">
+                                Nigeria
+                            </p>
+                        </div>
+                    </div>
+                    <p class="apply-dev-profile-card-job-title">
+                        Product Designer and front end Developer
+                    </p>
+                    <p class="apply-dev-profile-card-bio">
+                        I look forward to helping you hire the best software developers for your needs. They are all
+                        available to work in your time zone.
+                    </p>
+                    <p class="apply-dev-profile-skill-text">
+                        SKILLS
+                    </p>
+                    <div class="profile-card-skills-container">
+                        <img src="../assets/src/images/profile-card-skill1.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill2.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill3.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill4.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill5.png" alt="" class="profile-card-skills-img">
+                    </div>
+                    <p>
+                        <a href="#" class="apply-dev-profile-card-more-skills">+24 more skills</a>
+                    </p>
+                    <button class="apply-dev-profile-card-hire-btn">
+                        Hire Now
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="apply-dev-profile-card profile-card-each  profile-card-space">
+                    <div class="apply-dev-profile-card-image-container">
+                        <img src="../assets/src/images/apply-dev-profile-img.png" alt=""
+                            class="apply-dev-profile-card-image">
+                        <div class="apply-dev-profile-card-name-div">
+                            <p class="apply-dev-profile-card-name-title">
+                                Blazin Shado
+                            </p>
+                            <p class="apply-dev-profile-card-country">
+                                Nigeria
+                            </p>
+                        </div>
+                    </div>
+                    <p class="apply-dev-profile-card-job-title">
+                        Product Designer and front end Developer
+                    </p>
+                    <p class="apply-dev-profile-card-bio">
+                        I look forward to helping you hire the best software developers for your needs. They are all
+                        available to work in your time zone.
+                    </p>
+                    <p class="apply-dev-profile-skill-text">
+                        SKILLS
+                    </p>
+                    <div class="profile-card-skills-container">
+                        <img src="../assets/src/images/profile-card-skill1.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill2.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill3.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill4.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill5.png" alt="" class="profile-card-skills-img">
+                    </div>
+                    <p>
+                        <a href="#" class="apply-dev-profile-card-more-skills">+24 more skills</a>
+                    </p>
+                    <button class="apply-dev-profile-card-hire-btn">
+                        Hire Now
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="apply-dev-profile-card profile-card-each profile-card-space">
+                    <div class="apply-dev-profile-card-image-container">
+                        <img src="../assets/src/images/apply-dev-profile-img.png" alt=""
+                            class="apply-dev-profile-card-image">
+                        <div class="apply-dev-profile-card-name-div">
+                            <p class="apply-dev-profile-card-name-title">
+                                Blazin Shado
+                            </p>
+                            <p class="apply-dev-profile-card-country">
+                                Nigeria
+                            </p>
+                        </div>
+                    </div>
+                    <p class="apply-dev-profile-card-job-title">
+                        Product Designer and front end Developer
+                    </p>
+                    <p class="apply-dev-profile-card-bio">
+                        I look forward to helping you hire the best software developers for your needs. They are all
+                        available to work in your time zone.
+                    </p>
+                    <p class="apply-dev-profile-skill-text">
+                        SKILLS
+                    </p>
+                    <div class="profile-card-skills-container">
+                        <img src="../assets/src/images/profile-card-skill1.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill2.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill3.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill4.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill5.png" alt="" class="profile-card-skills-img">
+                    </div>
+                    <p>
+                        <a href="#" class="apply-dev-profile-card-more-skills">+24 more skills</a>
+                    </p>
+                    <button class="apply-dev-profile-card-hire-btn">
+                        Hire Now
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="apply-dev-profile-card profile-card-each   profile-card-space">
+                    <div class="apply-dev-profile-card-image-container">
+                        <img src="../assets/src/images/apply-dev-profile-img.png" alt=""
+                            class="apply-dev-profile-card-image">
+                        <div class="apply-dev-profile-card-name-div">
+                            <p class="apply-dev-profile-card-name-title">
+                                Blazin Shado
+                            </p>
+                            <p class="apply-dev-profile-card-country">
+                                Nigeria
+                            </p>
+                        </div>
+                    </div>
+                    <p class="apply-dev-profile-card-job-title">
+                        Product Designer and front end Developer
+                    </p>
+                    <p class="apply-dev-profile-card-bio">
+                        I look forward to helping you hire the best software developers for your needs. They are all
+                        available to work in your time zone.
+                    </p>
+                    <p class="apply-dev-profile-skill-text">
+                        SKILLS
+                    </p>
+                    <div class="profile-card-skills-container">
+                        <img src="../assets/src/images/profile-card-skill1.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill2.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill3.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill4.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill5.png" alt="" class="profile-card-skills-img">
+                    </div>
+                    <p>
+                        <a href="#" class="apply-dev-profile-card-more-skills">+24 more skills</a>
+                    </p>
+                    <button class="apply-dev-profile-card-hire-btn">
+                        Hire Now
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="apply-dev-profile-card profile-card-each   profile-card-space">
+                    <div class="apply-dev-profile-card-image-container">
+                        <img src="../assets/src/images/apply-dev-profile-img.png" alt=""
+                            class="apply-dev-profile-card-image">
+                        <div class="apply-dev-profile-card-name-div">
+                            <p class="apply-dev-profile-card-name-title">
+                                Blazin Shado
+                            </p>
+                            <p class="apply-dev-profile-card-country">
+                                Nigeria
+                            </p>
+                        </div>
+                    </div>
+                    <p class="apply-dev-profile-card-job-title">
+                        Product Designer and front end Developer
+                    </p>
+                    <p class="apply-dev-profile-card-bio">
+                        I look forward to helping you hire the best software developers for your needs. They are all
+                        available to work in your time zone.
+                    </p>
+                    <p class="apply-dev-profile-skill-text">
+                        SKILLS
+                    </p>
+                    <div class="profile-card-skills-container">
+                        <img src="../assets/src/images/profile-card-skill1.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill2.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill3.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill4.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill5.png" alt="" class="profile-card-skills-img">
+                    </div>
+                    <p>
+                        <a href="#" class="apply-dev-profile-card-more-skills">+24 more skills</a>
+                    </p>
+                    <button class="apply-dev-profile-card-hire-btn">
+                        Hire Now
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="apply-dev-profile-card profile-card-each  profile-card-space" id="profile-card-each-last">
+                    <div class="profile-card-each-last-overlay">
+                        <p class="buid-team-overlay-title">
+                            Build Your Dream <br>Team With CQT
+                        </p>
+                        <button class="build-team-overlay-btn">
+                            Hire Developer
+                        </button>
+                    </div>
+                    <div class="apply-dev-profile-card-image-container">
+                        <img src="../assets/src/images/apply-dev-profile-img.png" alt=""
+                            class="apply-dev-profile-card-image">
+                        <div class="apply-dev-profile-card-name-div">
+                            <p class="apply-dev-profile-card-name-title">
+                                Blazin Shado
+                            </p>
+                            <p class="apply-dev-profile-card-country">
+                                Nigeria
+                            </p>
+                        </div>
+                    </div>
+                    <p class="apply-dev-profile-card-job-title">
+                        Product Designer and front end Developer
+                    </p>
+                    <p class="apply-dev-profile-card-bio">
+                        I look forward to helping you hire the best software developers for your needs. They are all
+                        available to work in your time zone.
+                    </p>
+                    <p class="apply-dev-profile-skill-text">
+                        SKILLS
+                    </p>
+                    <div class="profile-card-skills-container">
+                        <img src="../assets/src/images/profile-card-skill1.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill2.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill3.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill4.png" alt="" class="profile-card-skills-img">
+                        <img src="../assets/src/images/profile-card-skill5.png" alt="" class="profile-card-skills-img">
+                    </div>
+                    <p>
+                        <a href="#" class="apply-dev-profile-card-more-skills">+24 more skills</a>
+                    </p>
+                    <button class="apply-dev-profile-card-hire-btn">
+                        Hire Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="vetted-engineer container-fluid vetted-engineer-colorless">
+        <h1 class="vetter-engineer-heading-text">Get Matched with <span>Vetted Talents</span> across the
+            <span>Globe</span>.</h1>
+        <div class="vetted-engineer-div row">
+            <div class="col-lg-4 child">
+                <img src="../assets/src/images/amico.svg" alt="" class="engineer-illustration">
+                <h4 class="vetted-engineer-div-child-heading-title">Top 3% Talents</h5>
+                    <p class="engineer-info">
+                        Our deep hiring platform accelerates the engineering and design team of companies at the push of
+                        a
+                        button.
+                    </p>
+                    <a href="For-company.html" class="learn-more">Learn more
+                        <span class="iconify" data-icon="ion:arrow-forward-circle-outline"></span>
+                    </a>
+            </div>
+            <div class="col-lg-4 child child-spacing">
+                <img src="../assets/src/images/amico1.svg" alt="" class="engineer-illustration">
+                <h4 class="vetted-engineer-div-child-heading-title">Constant Support</h4>
+                <p class="engineer-info">
+                    Capriquota matches you with vetted experts in various domains based on your business needs within a
+                    stipulated time.
+                </p>
+                <a href="For-company.html" class="learn-more">Learn more
+                    <span class="iconify" data-icon="ion:arrow-forward-circle-outline"></span>
+                </a>
+            </div>
+            <div class="col-lg-4 child child-spacing">
+                <img src="../assets/src/images/amico3.svg" alt="" class="engineer-illustration">
+                <h4 class="vetted-engineer-div-child-heading-title">Hire Quickly</h4>
+                <p class="engineer-info">
+                    Our talents are cultural and technical fit due to our rigorous selection process that results into
+                    98% trial to hire success rate.
+                </p>
+                <a href="For-company.html" class="learn-more">Learn more
+                    <span class="iconify" data-icon="ion:arrow-forward-circle-outline"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row anime3 container-fluid rigo-bg" id="spacing-rigo-container">
+        <div class="col-lg-7 col-md-12 talent-content  hiring-quality-illustration-container">
+            <img src="../assets/src/images/vetting-process-illustration.png" alt=""
+                class="talent-icon2 vetting-process-illustration">
+        </div>
+        <div class="col-lg-5 col-md-12 talent-content2 spacing-rigo">
+            <h2 class="join-cqt-title hiring-cost-title rigorous-heading-title">RIGOROUS VETTING PROCESS</h2>
+            <div class="join-cqt-child">
+                <div class="join-cqt-child-icon-div">
+                    <img src="../assets/src/images/vetting-process-i1.svg" alt="" class="join-cqt-child-icon">
+                </div>
+                <div class="join-cqt-child-content-div">
+                    <h4 class="join-cqt-child-content-title">5+ hours of tests and interviews</h4>
+                    <p class="join-cqt-child-content-info">An interview procedure which is rapid, efficient and also
+                        adheres to the highest admittance requirements to ensure that you are matched with vetted
+                        talents on a large scale.
+                    </p>
+                </div>
+            </div>
+            <div class="join-cqt-child">
+                <div class="join-cqt-child-icon-div">
+                    <img src="../assets/src/images/vetting-process-i2.svg" alt="" class="join-cqt-child-icon">
+                </div>
+                <div class="join-cqt-child-content-div">
+                    <h4 class="join-cqt-child-content-title">Seniority tests</h4>
+                    <p class="join-cqt-child-content-info">
+                        We also use a variety of assessments to assess each applicant's technical knowledge and
+                        problem-solving ability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="anime3 container-fluid">
+        <h2 class="join-cqt-title hiring-cost-title effective-collaboration-heading-text">EFFECTIVE COLLABORATION</h2>
+        <div class="row">
+            <div class="col-lg-5 col-md-12 talent-content2" id="effecttive-col">
+                <div class="join-cqt-child">
+                    <div class="join-cqt-child-icon-div">
+                        <img src="../assets/src/images/vetting-process-i1.svg" alt="" class="join-cqt-child-icon">
+                    </div>
+                    <div class="join-cqt-child-content-div">
+                        <h4 class="join-cqt-child-content-title">Daily Updates</h4>
+                        <p class="join-cqt-child-content-info">
+                            With automatic time monitoring and virtual daily stand ups, Capriquota's work
+                            space gives you additional visibility into your remote talents work.
+                        </p>
+                    </div>
+                </div>
+                <div class="join-cqt-child">
+                    <div class="join-cqt-child-icon-div">
+                        <img src="../assets/src/images/vetting-process-i2.svg" alt="" class="join-cqt-child-icon">
+                    </div>
+                    <div class="join-cqt-child-content-div">
+                        <h4 class="join-cqt-child-content-title">Easy to manage</h4>
+                        <p class="join-cqt-child-content-info">
+                            High visibility makes it simple for Capriquota's talents to manage and ensure that
+                            they are always working on what is most valuable to you.
+                        </p>
+                    </div>
+                </div>
+                <div class="join-cqt-child">
+                    <div class="join-cqt-child-icon-div">
+                        <img src="../assets/src/images/vetting-process-i3.svg" alt="" class="join-cqt-child-icon">
+                    </div>
+                    <div class="join-cqt-child-content-div">
+                        <h4 class="join-cqt-child-content-title">Match your timezone</h4>
+                        <p class="join-cqt-child-content-info">
+                            Our talents match your time zone and overlap a minimum of 4 hours with your workday.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12" id="effective-illu-parent-container">
+                <img src="../assets/src/images/effective-collab-illustration.PNG" alt="" class="talent-icon2 ">
+            </div>
+        </div>
+    </div>
+    <div class="how-to-hire-section container-fluid pb-5">
+        <h2 class="putting-together-title-text hire-through-cqt-title">
+            How to Hire through capriquota?
+        </h2>
+        <div class="row cqt-hire-steps">
+            <div class="col-lg-3 col-md-6 col-12 cqt-hire-steps-container">
+                <img src="../assets/src/images/no1.svg" alt="" class="cqt-hire-steps-details-img">
+                <h4 class="cqt-hire-steps-details-title">
+                    Tell us the skills you need
+                </h4>
+                <p class="cqt-hire-steps-details-info">
+                    We'll schedule a call and discuss your requirements
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 cqt-hire-steps-container">
+                <img src="../assets/src/images/no2.svg" alt="" class="cqt-hire-steps-details-img">
+                <h4 class="cqt-hire-steps-details-title">
+                    We find the best talent for you
+                </h4>
+                <p class="cqt-hire-steps-details-info">
+                    Get a list of pre-vetted talents within days.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 cqt-hire-steps-container">
+                <img src="../assets/src/images/no3.svg" alt="" class="cqt-hire-steps-details-img">
+                <h4 class="cqt-hire-steps-details-title">
+                    Schedule interviews
+                </h4>
+                <p class="cqt-hire-steps-details-info">
+                    Meet and select the developers you like.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 cqt-hire-steps-container">
+                <img src="../assets/src/images/no4.svg" alt="" class="cqt-hire-steps-details-img">
+                <h4 class="cqt-hire-steps-details-title">
+                    Begin your trial
+                </h4>
+                <p class="cqt-hire-steps-details-info">
+                    Start building your team with a no-risk trial period.
+                </p>
+            </div>
+        </div>
+        <div class="cqt-hire-steps-button-container">
+           <a href="HireEngineer.html">
+            <button class="cqt-hire-steps-button hiretalent_">
+                Hire A Talent
+            </button>
+           </a>
+        </div>
+    </div>
+    <section class="footer">
+        <img src="../assets/src/images/scroll-top.svg" alt="" class="scroll-top-img" onclick="topFunction()">
+        <footer class="">
+            <img src="../assets/src/images/shape.png" alt="" class="footer-icon-style">
+            <div class="row first-footer-section container-fluid">
+                <div class="col-lg-6 world-class-talent-div">
+                    <h1 class="world-class-talent-title">
+                        Leverage world class talent.
+                    </h1>
+                    <p class="world-class-talent-text">
+                        We are the world's largest and most widely spread network of vetted talents, ready to take on
+                        your most important tasks.
+                    </p>
+                </div>
+                <div class="row col-lg-6 join-cqt-div">
+                    <div class="row button-hire-join-container">
+                        <div class="col-lg-6 col-md-6 col-12 hire-a-talent-container">
+                            <a href="HireTeam.html">
+                                <button class="hire-a-talent-btn hiretalent_1">Hire A Talent</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 join-cqt-container">
+                            <a href="cqtRegistration.html">
+                                <button class="join-cqt-btn joincqt_1">Join CQT</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu-container-all row container-fluid">
+                <div class="footer-logo-section col-lg-4 col-md-12 col-sm-12 ">
+                    <a href="index.html">
+                        <img src="../assets/src/images/logo.png" alt="" class="footer-menu-logo">
+                    </a>
+                    <p class="footer-menu-social-icon">
+                        <a class="foot_a_" target="_blank" rel="noopener noreferrer"
+                            href="https://ng.linkedin.com/company/capriquota">
+                            <span class="iconify social-icon" data-icon="akar-icons:linkedin-fill"></span> &nbsp; &nbsp;
+                        </a>
+                        <a class="foot_a_" target="_blank" rel="noopener noreferrer"
+                            href="https://www.instagram.com/capriquota">
+                            <span class="iconify social-icon" data-icon="akar-icons:instagram-fill"></span> &nbsp;
+                            &nbsp;
+                        </a>
+                        <a class="foot_a_" target="_blank" rel="noopener noreferrer"
+                            href="https://facebook.com/Capriquota">
+                            <span class="iconify social-icon" data-icon="cib:facebook-f"></span> &nbsp; &nbsp;
+                        </a>
+                        <a class="foot_a_" target="_blank" rel="noopener noreferrer"
+                            href="https://twitter.com/capriquota">
+                            <span class="iconify social-icon" data-icon="akar-icons:twitter-fill"></span>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3 first-footer-menu-title-div">
+                    <p class="first-footer-menu-title">Customers</p>
+                    <a class="footers-customers-categories" href="HireEngineer.html">Hire Engineer</a>
+                    <a class="footers-customers-categories" href="HireDesigner.html">Hire Designer </a>
+                    <a class="footers-customers-categories" href="HireTeam.html">Hire Team</a>
+                    <a class="footers-customers-categories" href="HireSprint.html">Hire Sprint </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3 first-footer-menu-title-div">
+                    <p class="first-footer-menu-title">Join Capriquota</p>
+                    <a class="footers-customers-categories" href="For-engineers.html">As Engineer</a>
+                    <a class="footers-customers-categories" href="For-designers.html">As Designers </a>
+                    <a class="footers-customers-categories" href="ApplyAsIntern.html">As Intern</a>
+                    <a class="footers-customers-categories" href="CareerJobListing.html">As Non-Tech</a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3 first-footer-menu-title-div">
+                    <p class="first-footer-menu-title">Company</p>
+                    <a class="footers-customers-categories" href="About.html">About</a>
+                    <a class="footers-customers-categories" href="cqtContactUs.html">Contact Us</a>
+                    <a class="footers-customers-categories" href="#">CLP</a>
+                    <a class="footers-customers-categories" href="Life@Capriquota.html">Life @ Capriquota </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3 first-footer-menu-title-div">
+                    <p class="first-footer-menu-title">Info</p>
+                    <a class="footers-customers-categories" href="cqtFAQ.html">FAQ</a>
+                    <a class="footers-customers-categories" href="cqtPress.html">Press</a>
+                    <a class="footers-customers-categories" href="cqtBlog.html">Blog </a>
+                    <a class="footers-customers-categories" href="cqtEvent.html">Events</a>
+                </div>
+            </div>
+        </footer>
+        <hr class="footer-divided">
+        <div class="row subfooter-menu-container container-fluid">
+            <p class="copyright-text col-lg-4">
+                Copyright © 2016 - 2022. All rights reserved.
+            </p>
+            <p class="privacy-policy-text col-lg-2">
+                <a class="foot_a_" href="Privacy&Policy.html">Privacy & Policy </a>
+            </p>
+            <p class="terms-conditions-text col-lg-2">
+                <a class="foot_a_" href="TermsAndConditions.html">Terms & Conditions</a>
+            </p>
+            <p class="code-of-conduct-text col-lg-2">
+                <a class="foot_a_" href="CodeOfConducts.html"> Code of Conducts </a>
+            </p>
+            <p class="code-of-conduct-text col-lg-2">
+                <a class="foot_a_" href="cqtMediaKits.html">Media Kit </a>
+            </p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="../assets/src/owl-carousel/js/navbar.js"></script>
+    <script src="../assets/src/owl-carousel/js/bxslider.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
+    <script src="../assets/src/owl-carousel/js/script.js"></script>
+    <script src="../assets/src/owl-carousel/js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/src/css/navbar.css">
+    <link rel="stylesheet" href="../assets/src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="icon" href="../assets/src/images/favicon.png">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/src/owl-carousel/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/src/owl-carousel/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="../assets/src/owl-carousel/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../assets/src/owl-carousel/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/src/owl-carousel/css/style.css">
+    <script src="../assets/src/owl-carousel/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/src/owl-carousel/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/src/owl-carousel/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="../assets/src/owl-carousel/js/carausol_slider.js"></script>
+    <title>For Company</title>
+</head>
+<body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light cqt-navbar">
+        <div class="container-fluid cqt-navbar-inner">
+            <a class="navbar-brand" href="index.html">
+                <img src="../assets/src/images/logo.png" alt="" class="navbar-logo">
+            </a>
+            <div id="nav-icon-anim" onclick="changeStyle()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="shownavbar" id="collapsibleNavId22">
+                <div class="shownavbarcontents">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-mobile" href="For-company.html">For Company</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="For-designers.html">For Engineers</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="For-designers.html">For Designers</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link  join-cqt-mobile" href="#">Join CQT</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="#">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="For-company.html" id="active-page">For Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-engineers.html">For Engineers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-designers.html">For Designers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link join-cqt" href="#">Join CQT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign in</a>
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    </nav>
+    <!-- BANNER SECTION -->
+
+    <!-- <div class="banner-container row" id="banner-container-gap">
+=======
+    <!-- <div class="banner-container row" id="banner-container-gap">
+>>>>>>> 6ad7410862e0364f0d5a4a4e499b646b6df6767c
+        <div class="col-lg-6 cqt-first-banner">
+            <div class="_textRap">
+                <h1 class="banner-heading-text for-company-heading-text" id="for-company-heading-text">Leverage On Vetted
+                    </h1>
+                <h1 style="line-height: 0.9em;" class="banner-heading-text" id="banner-heading-text">Engineers And Designers</h1>
+            </div>        
+            <p class="banner-desc-text for-company-desc-text" id="for-company-desc-text">
+                Tap into a pool of pre-vetted talents and spend less time interviewing
+            </p>
+            <button class="banner-hire-btn hiretalent">Hire A Talent</button>
+        </div>
+        <div class="col-lg-6 cqt-image-carousel" id="cqt-image-carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner" data-bs-interval="300">
+                    <div class="carousel-item active">
+                        <img src="../assets/src/images/for-company.png" class="creative-banner-img" alt="..." id="for-company-illu">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- SPONSORS -->
+    <div class="sponsors sponsor-gap">
+        <img src="../assets/src/images/all-sponsors-img.png" alt="" class="all-sponsor-img">
+    </div>
+    <div class=" anime3 for-company-anime3 anime3-space">
+        <h2 class="join-cqt-title hiring-cost-title quality-heading-title">QUALITY TO COST HIRING</h2>
+        <div class="row pt-space">
+            <div class="col-lg-5 col-md-12 talent-content2">
+                <div class="join-cqt-child">
+                    <div class="join-cqt-child-icon-div">
+                        <img src="../assets/src/images/hiring-quality-icon1.svg" alt="" class="join-cqt-child-icon">
+                    </div>
+                    <div class="join-cqt-child-content-div">
+                        <h4 class="join-cqt-child-content-title">Hire vetted Talents at Capriquota</h4>
+                        <p class="join-cqt-child-content-info">Hire vetted talent at rates designed to optimize your
+                            budget
+                            for experience and skill set.</p>
+                    </div>
+                </div>
+                <div class="join-cqt-child">
+                    <div class="join-cqt-child-icon-div">
+                        <img src="../assets/src/images/hiring-quality-icon2.svg" alt="" class="join-cqt-child-icon">
+                    </div>
+                    <div class="join-cqt-child-content-div">
+                        <h4 class="join-cqt-child-content-title">100+ Skill Available</h4>
+                        <p class="join-cqt-child-content-info">
+                            Hire Android, Angular, Dev Ops, Golang, Java, ML, Node, Python, Rails, React, React Native,
+                            Swift, and More.
+                        </p>
+                    </div>
+                </div>
+                <div class="join-cqt-child">
+                    <div class="join-cqt-child-icon-div">
+                        <img src="../assets/src/images/hiring-quality-icon3.svg" alt="" class="join-cqt-child-icon">
+                    </div>
+                    <div class="join-cqt-child-content-div">
+                        <h4 class="join-cqt-child-content-title">Risk Free</h4>
+                        <p class="join-cqt-child-content-info">
+                            Get matched with vetted talents from around the world and hire them without risk.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 talent-content anime3-illustration-div hiring-quality-illustration-container">
+            
+                    <div class="remote-jobs-image-container_">
+
+                        <a href="" class="remote-jobs-icons-link responsive-imgk">
+                            <img src="../assets/src/images/S1.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S2.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S3.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S4.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S5.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-imgk">
+                            <img src="../assets/src/images/S8.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                       
+                  
+                        
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S9.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S10.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S11.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S12.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-imgk">
+                            <img src="../assets/src/images/S15.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S16.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                  
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S17.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S18.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S19.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-imgk">
+                            <img src="../assets/src/images/S22.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S23.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S24.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                       
+                   
+                        
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S6.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S7.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-imgk">
+                            <img src="../assets/src/images/S20.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S21.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S27.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S13.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                       
+                       
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S14.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-imgk">
+                            <img src="../assets/src/images/S25.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                        <a href="" class="remote-jobs-icons-link responsive-img">
+                            <img src="../assets/src/images/S26.png" alt="" class="remote-jobs-icons-pro">
+                        </a>
+                       
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="row anime3 for-company-anime3 anime3-space">
+        <div class="col-lg-6 col-md-12 talent-content  hiring-quality-illustration-container">
+            <img src="../assets/src/images/vetting-process-illustration.png" alt=""
+                class="talent-icon2 vetting-process-illustration">
+        </div>
+        <div class="col-lg-6 col-md-12 talent-content2 spacing-rigo">
+            <h2 class="join-cqt-title hiring-cost-title rigorous-heading-title">RIGOROUS VETTING PROCESS</h2>
+            <div class="join-cqt-child">
+                <div class="join-cqt-child-icon-div">
+                    <img src="../assets/src/images/vetting-process-i1.svg" alt="" class="join-cqt-child-icon">
+                </div>
+                <div class="join-cqt-child-content-div">
+                    <h4 class="join-cqt-child-content-title">5+ hours of tests and interviews</h4>
+                    <p class="join-cqt-child-content-info">An interview procedure which is rapid, efficient and also
+                        adheres to the highest admittance requirements to ensure that you are matched with vetted
+                        talents on a large scale.
+                    </p>
+                </div>
+            </div>
+            <div class="join-cqt-child">
+                <div class="join-cqt-child-icon-div">
+                    <img src="../assets/src/images/vetting-process-i2.svg" alt="" class="join-cqt-child-icon">
+                </div>
+                <div class="join-cqt-child-content-div">
+                    <h4 class="join-cqt-child-content-title">Seniority tests</h4>
+                    <p class="join-cqt-child-content-info">
+                        We also use a variety of assessments to assess each applicant's technical knowledge and
+                        problem-solving ability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="anime3 for-company-anime4 anime3-space">
+        <h2 class="join-cqt-title hiring-cost-title effective-collaboration-heading-text">EFFECTIVE COLLABORATION</h2>
+        <div class="row">
+            <div class="col-lg-5 col-md-12 talent-content2">
+                <div class="join-cqt-child">
+                    <div class="join-cqt-child-icon-div">
+                        <img src="../assets/src/images/vetting-process-i1.svg" alt="" class="join-cqt-child-icon">
+                    </div>
+                    <div class="join-cqt-child-content-div">
+                        <h4 class="join-cqt-child-content-title">Daily Updates</h4>
+                        <p class="join-cqt-child-content-info">
+                            With automatic time monitoring and virtual daily stand ups, Capriquota's work
+                            space gives you additional visibility into your remote talents work.
+                        </p>
+                    </div>
+                </div>
+                <div class="join-cqt-child">
+                    <div class="join-cqt-child-icon-div">
+                        <img src="../assets/src/images/vetting-process-i2.svg" alt="" class="join-cqt-child-icon">
+                    </div>
+                    <div class="join-cqt-child-content-div">
+                        <h4 class="join-cqt-child-content-title">Easy to manage</h4>
+                        <p class="join-cqt-child-content-info">
+                            High visibility makes it simple for Capriquota's talents to manage and ensure that
+                            they are always working on what is most valuable to you.
+                        </p>
+                    </div>
+                </div>
+                <div class="join-cqt-child">
+                    <div class="join-cqt-child-icon-div">
+                        <img src="../assets/src/images/vetting-process-i3.svg" alt="" class="join-cqt-child-icon">
+                    </div>
+                    <div class="join-cqt-child-content-div">
+                        <h4 class="join-cqt-child-content-title">Match your timezone</h4>
+                        <p class="join-cqt-child-content-info">
+                            Our talents match your time zone and overlap a minimum of 4 hours with your workday.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="col-lg-7 col-md-12 talent-content anime3-illustration-div hiring-quality-illustration-container">
+                <img src="../assets/src/images/effective-collab-illustration.PNG" alt=""
+                    class="talent-icon2 hiring-quality-illustration">
+            </div>
+        </div>
+    </div>
+    <div class="putting-together-section row">
+        <div class="col-12 putting-together-first-container">
+            <h2 class="putting-together-title-text">
+                We've Cracked the Code on Putting Together Engineering Teams
+            </h2>
+            <p class="putting-together-desc-text">
+                Capriquota offers you access to vetted talents who integrate seamlessly with your team.
+            </p>
+        </div>
+        <div class="col-12 putting-together-img-container">
+            <img src="../assets/src/images/putting-together-img.svg" alt="" class="putting-together-img">
+        </div>
+    </div>
+    <div class="regardless-section row">
+        <div class="regardless-content-container col-lg-4 col-12">
+            <h2 class="why-apply-content-title cqt-deep-profile-title">
+                Capriquota Deep developer’s profile
+            </h2>
+            <p class="why-apply-content-info2 cqt-deep-profile-desc">
+                Our in-depth portfolios can help you get a better understanding of
+                your prospective developers. With our Deep Developer’s Profile, you can
+                learn about their strengths and flaws and see if they are fit for your team.
+            </p>
+            <button class="why-apply-button cqt-deep-profile-button hiretalent_">
+                Hire A Talent
+            </button>
+        </div>
+        <div class="why-apply-illustration-container col-lg-8  col-12">
+            <img src="../assets/src/images/cqt-deep.png" alt="" class="cqt-deep-illustration">
+        </div>
+    </div>
+    <div class="how-to-hire-section">
+        <h2 class="putting-together-title-text hire-through-cqt-title">
+            How to Hire through capriquota?
+        </h2>
+        <div class="row cqt-hire-steps">
+            <div class="col-lg-3 col-md-6 col-12 cqt-hire-steps-container">
+                <img src="../assets/src/images/no1.svg" alt="" class="cqt-hire-steps-details-img">
+                <h4 class="cqt-hire-steps-details-title">
+                    Tell us the skills you need
+                </h4>
+                <p class="cqt-hire-steps-details-info">
+                    We'll schedule a call and discuss your requirements
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 cqt-hire-steps-container">
+                <img src="../assets/src/images/no2.svg" alt="" class="cqt-hire-steps-details-img">
+                <h4 class="cqt-hire-steps-details-title">
+                    We find the best talent for you
+                </h4>
+                <p class="cqt-hire-steps-details-info">
+                    Get a list of pre-vetted talents within days.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 cqt-hire-steps-container">
+                <img src="../assets/src/images/no3.svg" alt="" class="cqt-hire-steps-details-img">
+                <h4 class="cqt-hire-steps-details-title">
+                    Schedule interviews
+                </h4>
+                <p class="cqt-hire-steps-details-info">
+                    Meet and select the developers you like.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 cqt-hire-steps-container">
+                <img src="../assets/src/images/no4.svg" alt="" class="cqt-hire-steps-details-img">
+                <h4 class="cqt-hire-steps-details-title">
+                    Begin your trial
+                </h4>
+                <p class="cqt-hire-steps-details-info">
+                    Start building your team with a no-risk trial period.
+                </p>
+            </div>
+        </div>
+        <div class="cqt-hire-steps-button-container">
+            <button class="cqt-hire-steps-button hiretalent_1">
+                Hire A Talent
+            </button>
+        </div>
+        <div class="cqt-hire-steps-image-container">
+            <!-- <img src="../assets/src/images/cqt-hire-play.svg" alt="" class="cqt-hire-steps-img-play"> -->
+
+            <div class="wrapper cqt-hire-steps-img-play">
+                <video class="video" >
+                    <source src="../assets/src/Capriquota render services.mp4" type="video/mp4" />
+                </video>
+              <div class="playpause"></div>
+            </div>
+
+
+        </div>
+        <div class="moving-carousel-section">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-block w-100">
+                            <div class="quotation-box">
+                                <img src="../assets/src/images/top-quote.svg" alt="" class="top-left-quote">
+                                <img src="../assets/src/images/bottom-quote.svg" alt="" class="bottom-left-quote">
+                                <p class="customer-review-text">
+                                    “ Every developer i have worked with at capriquota They are great engineers, really
+                                    driven to deliver, and they’re just great people.”
+                                </p>
+                            </div>
+                            <div class="customer-info-container">
+                                <img src="../assets/src/images/customer-pic.svg" alt="" class="customer-pic">
+                                <p class="customer-info-name">
+                                    Olawale Emmanuel
+                                </p>
+                                <p class="customer-info-occupation">
+                                    CTO, Cocacola
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100">
+                            <div class="quotation-box">
+                                <img src="../assets/src/images/top-quote.svg" alt="" class="top-left-quote">
+                                <img src="../assets/src/images/bottom-quote.svg" alt="" class="bottom-left-quote">
+                                <p class="customer-review-text">
+                                    “ Every developer i have worked with at capriquota They are great engineers, really
+                                    driven to deliver, and they’re just great people.”
+                                </p>
+                            </div>
+                            <div class="customer-info-container">
+                                <img src="../assets/src/images/customer-pic.svg" alt="" class="customer-pic">
+                                <p class="customer-info-name">
+                                    Olawale Emmanuel
+                                </p>
+                                <p class="customer-info-occupation">
+                                    CTO, Cocacola
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100">
+                            <div class="quotation-box">
+                                <img src="../assets/src/images/top-quote.svg" alt="" class="top-left-quote">
+                                <img src="../assets/src/images/bottom-quote.svg" alt="" class="bottom-left-quote">
+                                <p class="customer-review-text">
+                                    “ Every developer i have worked with at capriquota They are great engineers, really
+                                    driven to deliver, and they’re just great people.”
+                                </p>
+                            </div>
+                            <div class="customer-info-container">
+                                <img src="../assets/src/images/customer-pic.svg" alt="" class="customer-pic">
+                                <p class="customer-info-name">
+                                    Olawale Emmanuel
+                                </p>
+                                <p class="customer-info-occupation">
+                                    CTO, Cocacola
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="sponsors sponsor-gap">
+            <img src="../assets/src/images/all-sponsors-img.png" alt="" class="all-sponsor-img">
+        </div>
+    </div>
+    <div class="explore-remote-jobs-section">
+        <h2 class="why-apply-content-title hire-cqt-dev-title">
+            Hire Capriquota Developer
+        </h2>
+        <input type="text" class="explore-remote-input" placeholder="Search skills, Roles .......">
+        <h5 class="based-on-skill-text">
+            Based on Skill
+        </h5>
+        <div class="remote-jobs-image-container">
+        
+
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S1.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S2.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S3.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S4.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S5.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S6.png" alt="" class="remote-jobs-icons">
+                    </a>
+              
+                    <a href="" class="remote-jobs-icons-link responsive-imgk">
+                        <img src="../assets/src/images/S8.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S9.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S10.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S11.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S12.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S13.png" alt="" class="remote-jobs-icons">
+                    </a>
+                
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S15.png" alt="" class="remote-jobs-icons ">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S16.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S17.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S18.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S19.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S20.png" alt="" class="remote-jobs-icons">
+                    </a>
+
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S22.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S23.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S24.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S25.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S26.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S27.png" alt="" class="remote-jobs-icons">
+                    </a>
+                   
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S7.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S14.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S21.png" alt="" class="remote-jobs-icons">
+                    </a>
+                    <a href="" class="remote-jobs-icons-link responsive-img">
+                        <img src="../assets/src/images/S28.png" alt="" class="remote-jobs-icons">
+                    </a>
+                
+        </div>
+        <br> <br>
+
+    </div>
+    <div class="explore-remote-jobs-section row">
+        <div class="col-lg-8 explore-remote-jobs-section-8">
+            <h5 class="based-on-skill-text">
+                Based On Role
+            </h5>
+            <div class="row g-3">
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            Full Stack Developers
+                        </buttton>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            Front-End Developers
+                        </buttton>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            Back-End Developers
+                        </buttton>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            Mobile Developers
+                        </buttton>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            App developers
+                        </buttton>
+                    </div>
+                </div>
+            </div> <br>
+            <a href="#" class="more-skills-link">See more Roles</a>
+        </div>
+    </div>
+    <div class="explore-remote-jobs-section row">
+        <div class="col-lg-8 explore-remote-jobs-section-8">
+            <h5 class="based-on-skill-text">
+                Based On Career Terajectory
+            </h5>
+            <div class="row g-3">
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            Full Stack Developers
+                        </buttton>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            Front-End Developers
+                        </buttton>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            Back-End Developers
+                        </buttton>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            Mobile Developers
+                        </buttton>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 space-close">
+                    <div class="">
+                        <buttton class="base-on-role-btn">
+                            App developers
+                        </buttton>
+                    </div>
+                </div>
+            </div> <br>
+            <a href="#" class="more-skills-link">See more options</a>
+        </div>
+    </div>
+    <section class="footer">
+        <img src="../assets/src/images/scroll-top.svg" alt="" class="scroll-top-img" onclick="topFunction()">
+        <footer>
+            <img src="../assets/src/images/shape.png" alt="" class="footer-icon-style">
+            <div class="row first-footer-section">
+                <div class="col-lg-6 world-class-talent-div">
+                    <h1 class="world-class-talent-title">
+                        Leverage world class talent.
+                    </h1>
+                    <p class="world-class-talent-text">
+                        We are the world's largest and most widely spread network of vetted talents, ready to take on
+                        your most important tasks.
+                    </p>
+                </div>
+                <div class="row col-lg-6 join-cqt-div">
+                    <div class="row button-hire-join-container">
+                        <div class="col-lg-6 col-md-6 col-12 hire-a-talent-container">
+                            <button class="hire-a-talent-btn hiretalent_2">Hire A Talent</button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 join-cqt-container">
+                            <button class="join-cqt-btn joincqt">Join CQT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu-container-all row">
+                <div class="footer-logo-section col-lg-4 col-md-12 col-sm-12">
+                    <a href="index.html">
+                        <img src="../assets/src/images/logo.png" alt="" class="footer-menu-logo">
+                    </a>
+                    <p class="footer-menu-social-icon">
+                        <span class="iconify social-icon" data-icon="akar-icons:youtube-fill"></span> &nbsp; &nbsp;
+                        <span class="iconify social-icon" data-icon="akar-icons:instagram-fill"></span> &nbsp; &nbsp;
+                        <span class="iconify social-icon" data-icon="cib:facebook-f"></span> &nbsp; &nbsp;
+                        <span class="iconify social-icon" data-icon="akar-icons:twitter-fill"></span>
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                    <p class="first-footer-menu-title">Customers</p>
+                    <a class="footers-customers-categories" href="For-company.html">Hire Engineer</a>
+                    <a class="footers-customers-categories" href="For-company.html">Hire Designer </a>
+                    <a class="footers-customers-categories" href="HireTalentPageSkillPage.html">Hire Team</a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                    <p class="first-footer-menu-title">Join Capriquota</p>
+                    <a class="footers-customers-categories" href="For-engineers.html">As Engineer</a>
+                    <a class="footers-customers-categories" href="For-designers.html">As Designers </a>
+                    <a class="footers-customers-categories" href="careerdescription.html">Career</a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                    <p class="first-footer-menu-title">Company</p>
+                    <a class="footers-customers-categories" href="About.html">About</a>
+                    <a class="footers-customers-categories" href="mediakits.html">Media Kit</a>
+                    <a class="footers-customers-categories" href="#">CLP</a>
+                    <a class="footers-customers-categories" href="contactPage.html">Contact Us </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                    <p class="first-footer-menu-title">Media</p>
+                    <a class="footers-customers-categories" href="LifeatcqtPage.html">Life @ Capriquota</a>
+                    <a class="footers-customers-categories" href="#">Press</a>
+                    <a class="footers-customers-categories" href="Blog.html">Blog </a>
+                    <a class="footers-customers-categories" href="eventpage.html">Events</a>
+                </div>
+            </div>
+        </footer>
+        <hr class="footer-divided">
+        <div class="row subfooter-menu-container">
+            <p class="copyright-text col-lg-4">
+                Copyright © 2022. All rights reserved.
+            </p>
+            <p class="privacy-policy-text col-lg-2">
+                Privacy & policy
+            </p>
+            <p class="terms-conditions-text col-lg-2">
+                Terms & Conditions
+            </p>
+            <p class="code-of-conduct-text col-lg-4">
+                Code of Conducts
+            </p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="../assets/src/owl-carousel/js/navbar.js"></script>
+    <script src="../assets/src/owl-carousel/js/bxslider.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
+    <script src="../assets/src/owl-carousel/js/script.js"></script>
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/src/css/navbar.css">
+    <link rel="stylesheet" href="../assets/src/css/style.css">
+    <link rel="stylesheet" href="../assets/src/css/blog.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="icon" href="../assets/src/images/favicon.png">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/src/owl-carousel/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/src/owl-carousel/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="../assets/src/owl-carousel/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../assets/src/owl-carousel/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/src/owl-carousel/css/style.css">
+    <script src="../assets/src/owl-carousel/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/src/owl-carousel/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/src/owl-carousel/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+    <script src="../assets/src/owl-carousel/js/carausol_slider.js"></script>
+    <title>For Engineers</title>
+</head>
+<body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light cqt-navbar">
+        <div class="container-fluid cqt-navbar-inner">
+            <a class="navbar-brand" href="index.html">
+                <img src="../assets/src/images/logo.png" alt="" class="navbar-logo">
+            </a>
+            <div id="nav-icon-anim" onclick="changeStyle()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="shownavbar" id="collapsibleNavId22">
+                <div class="shownavbarcontents">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-mobile" href="For-company.html">For Company</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="For-engineers.html">For Engineers</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="For-designers.html">For Designers</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link  join-cqt-mobile" href="Registration_Page.html">Join CQT</a>
+                        </li>
+                        <li class="nav-item nav-item-space">
+                            <a class="nav-link nav-link-mobile" href="loginPage.html">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-company.html">For Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-engineers.html" id="active-page">For Engineers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="For-designers.html">For Designers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link join-cqt" href="Registration_Page.html">Join CQT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="loginPage.html">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- BANNER SECTION -->
+    <div class="banner-container banner-container-gap row">
+        <div class="col-lg-6 cqt-first-banner">
+            <div class="_textRap">
+                <h1 class="banner-heading-text for-engr-banner-text" >Apply for remote software jobs at your convenience.
+                </h1>
+            </div>
+           
+            <p class="banner-desc-text for-engr-desc-text ">
+                Get remote software jobs with greater remuneration and career advancement by joining our pool of talents
+                network.
+            </p>
+            <button class="banner-hire-btn for-engr-hire-btn joincqt">Join CQT Talents</button>
+        </div>
+        <div class="col-lg-6 cqt-image-carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner" data-bs-interval="300">
+                    <div class="carousel-item active">
+                        <img src="../assets/src/images/for-engineers-illustration.svg" class="creative-banner-img" alt="..."
+                            id="for-engr-illu">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SPONSORS -->
+    <div class="sponsors engr-sponr" style="padding-top:30px">
+        <img src="../assets/src/images/all-sponsors-img.png" alt="" class="all-sponsor-img">
+    </div>
+    <div class="why-capriquota-section">
+        <h1 class="why-capriquota-title">
+            Why Capriquota?
+        </h1>
+        <p class="why-capriquota-info">
+            We equip you with the resources and mentorship needed to be world class,
+            accelerate your career and get matched-up with long-term client engagement.
+        </p>
+    </div>
+    <div class="row cqt-explanation-container2">
+        <div class="client-count row g-5 for-engr-client-count">
+            <div class="col-lg-4 col-md-6 col-12 ">
+                <div class="why-capriquota-each">
+                    <img src="../assets/src/images/why-cqt-icon2.svg" alt="" class="why-capriquota-each-icon">
+                    <h3 class="why-capriquota-each-title">
+                        Growth Opportunities
+                    </h3>
+                    <p class="why-capriquota-each-info">
+                        We offer discounts on instructional materials, tickets and
+                        other expenses related to your professional development.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="why-capriquota-each">
+                    <img src="../assets/src/images/why-cqt-icon1.svg" alt="" class="why-capriquota-each-icon">
+                    <h3 class="why-capriquota-each-title">
+                        Long Term Opportunities
+                    </h3>
+                    <p class="why-capriquota-each-info">
+                        We are committed to finding you a long term position that will allow you
+                        to refine your skills and accelerate your career.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="why-capriquota-each">
+                    <img src="../assets/src/images/why-cqt-icon3.svg" alt="" class="why-capriquota-each-icon">
+                    <h3 class="why-capriquota-each-title">
+                        High Pay
+                    </h3>
+                    <p class="why-capriquota-each-info">
+                        We'll match you with the perfect opportunity at a pay
+                        that fits your experience and abilities
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="why-capriquota-each">
+                    <img src="../assets/src/images/why-cqt-icon4.svg" alt="" class="why-capriquota-each-icon">
+                    <h3 class="why-capriquota-each-title">
+                        Mentorship and Guidance
+                    </h3>
+                    <p class="why-capriquota-each-info">
+                        Our team is focused on your long-term career progress with profile
+                        evaluation, verification, role matching, counseling and many more.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="why-capriquota-each">
+                    <img src="../assets/src/images/why-cqt-icon5.svg" alt="" class="why-capriquota-each-icon">
+                    <h3 class="why-capriquota-each-title">
+                        Exclusive Matching
+                    </h3>
+                    <p class="why-capriquota-each-info">
+                        We match talents with companies that rely on employment and
+                        development with high strategic value and uniqueness.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="why-capriquota-each">
+                    <img src="../assets/src/images/why-cqt-icon6.svg" alt="" class="why-capriquota-each-icon">
+                    <h3 class="why-capriquota-each-title">
+                        Professional Flexibility
+                    </h3>
+                    <p class="why-capriquota-each-info">
+                        We work with you to identify the right client role for you based on work schedule,
+                        tech stacks, team dynamics, and overall best fit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="how-to-get-started-section">
+        <h1 class="why-capriquota-title">
+            How to Get Started
+        </h1>
+        <p class="how-to-get-started-info">
+            The process required to get your desired job
+        </p>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12 talent-content2 get-started-steps-line-container ">
+                <img src="../assets/src/images/get-started-line.svg" alt="" class="get-started-steps-line">
+                <div class="join-cqt-div">
+                    <div class="join-cqt-child get-started-steps-div">
+                        <div class="join-cqt-child-icon-div get-started-steps-icon-div">
+                            <img src="../assets/src/images/no1.svg" alt="" class="join-cqt-child-icon">
+                        </div>
+                        <div class="join-cqt-child-content-div">
+                            <h4 class="join-cqt-child-content-title">Register</h4>
+                            <p class="join-cqt-child-content-info get-started-steps-div-info">
+                                Show your interest in joining our team by registering at <a
+                                    href="https://capriquota.com/talent">https://capriquota.com/talent</a>
+                                please make sure this is the link you're using.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="join-cqt-child get-started-steps-div">
+                        <div class="join-cqt-child-icon-div get-started-steps-icon-div">
+                            <img src="../assets/src/images/no2.svg" alt="" class="join-cqt-child-icon">
+                        </div>
+                        <div class="join-cqt-child-content-div">
+                            <h4 class="join-cqt-child-content-title">Language and Personality</h4>
+                            <p class="join-cqt-child-content-info get-started-steps-div-info">
+                                The first step in the screening process is to conduct a thorough English language and
+                                communication interview evaluation with AI powered tools. We also look for people
+                                that are enthusiastic about their profession and are completely immersed in it.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="join-cqt-child get-started-steps-div">
+                        <div class="join-cqt-child-icon-div get-started-steps-icon-div">
+                            <img src="../assets/src/images/no3.svg" alt="" class="join-cqt-child-icon">
+                        </div>
+                        <div class="join-cqt-child-content-div">
+                            <h4 class="join-cqt-child-content-title">In-Depth Skill Review</h4>
+                            <p class="join-cqt-child-content-info get-started-steps-div-info">
+                                Every applicant who passes the language and personality tests is put through a series of
+                                assessments to evaluate if they have technical knowledge and problem-solving skills.
+                                Applicants with exceptional results advance to the next screening phase of our talent
+                                pool,
+                                which contains experts in a wide range of fields.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="join-cqt-child get-started-steps-div">
+                        <div class="join-cqt-child-icon-div get-started-steps-icon-div">
+                            <img src="../assets/src/images/no4.svg" alt="" class="join-cqt-child-icon">
+                        </div>
+                        <div class="join-cqt-child-content-div">
+                            <h4 class="join-cqt-child-content-title">Live Screening</h5>
+                                <p class="join-cqt-child-content-info get-started-steps-div-info">
+                                    Capriquota screens each applicant via individuals who are experts in their
+                                    functional
+                                    domain.
+                                    Our screeners conduct live exercises to assess problem-solving ability,
+                                    depth of experience, communication ability, and creativity.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="join-cqt-child get-started-steps-div">
+                        <div class="join-cqt-child-icon-div get-started-steps-icon-div">
+                            <img src="../assets/src/images/no5.svg" alt="" class="join-cqt-child-icon">
+                        </div>
+                        <div class="join-cqt-child-content-div">
+                            <h4 class="join-cqt-child-content-title">Test Projects</h4>
+                            <p class="join-cqt-child-content-info get-started-steps-div-info">
+                                Applicants who have progressed this far will be given a test to check if they can “walk
+                                the
+                                walk”. By participating in complete test projects that simulate real-life events,
+                                applicants can
+                                demonstrate their competence, thoroughness, professionalism, and integrity.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="join-cqt-child get-started-steps-div">
+                        <div class="join-cqt-child-icon-div get-started-steps-icon-div">
+                            <img src="../assets/src/images/no6.svg" alt="" class="join-cqt-child-icon">
+                        </div>
+                        <div class="join-cqt-child-content-div">
+                            <h4 class="join-cqt-child-content-title">Personalized Excellence</h4>
+                            <p class="join-cqt-child-content-info get-started-steps-div-info">
+                                Get matched to the best cultural and technical fit opportunities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12 talent-content get-started-steps-div2 ">
+                <img src="../assets/src/images/get-started-illustration.svg" alt="" class="get-started-steps-div-illustration">
+            </div>
+        </div>
+    </div>
+    <div class="why-apply-section row">
+        <div class="why-apply-illustration-container col-lg-6  col-12">
+            <img src="../assets/src/images/why-apply.svg" alt="" class="why-apply-illustration">
+        </div>
+        <div class="why-apply-content-container col-lg-6 col-12">
+            <h1 class="why-apply-content-title">
+                Why Apply for another Job?
+            </h1>
+            <p class="why-apply-content-info">
+                Capriquota engagements are full-time and long-term. As one project nears completion,
+                our team immediately gets to work identifying the next one for you
+            </p>
+            <button class="why-apply-button joincqt_">
+                Join CQT Talents
+            </button>
+        </div>
+    </div>
+    <div class="regardless-section row">
+        <div class="regardless-content-container col-lg-5 col-12">
+            <h1 class="why-apply-content-title regardless-heading-title">
+                Regardless of who you ARE!
+            </h1>
+            <p class="why-apply-content-info2">
+                CodeIQ is a learning platform curated by Capriquota to offer training and guidance
+                to engineers and designers at all stages of their careers. To date over 1000+ talents
+                have participated in CodeIQ events, fellowships and programs. Some participants have
+                gone on to join Capriquota's talent network, Mentor and other techies as they continue
+                to grow as leaders in their fields.
+            </p>
+            <button class="why-apply-button">
+                Join CodeIQ
+            </button>
+        </div>
+        <div class="why-apply-illustration-container col-lg-7  col-12">
+            <img src="../assets/src/images/regardless.svg" alt="" class="regardless-illustration">
+        </div>
+    </div>
+    <div class="review-section">
+        <div class="review-container">
+            <div class="review-container-firstcontainer">
+                <h1 class="review-container-title">Developers review on why they choose Capriquota</h1>
+                <p class="review-container-info">Learn about the experience of our vetted talents working with top
+                    firms from all over the world.</p>
+            </div>
+            <p class="review-view-all-container">
+                <a href="#" class="review-view-all-link">View all reviews</a>
+            </p>
+        </div>
+        <section class="client">
+            <div class="carousel-client">
+                <div class="slide inside-item inside-item-1">
+                    <div class="overlay-color">
+                    </div>
+                    <div class="write-overlay">
+                        <p class="overlay-title">
+                            CapeTown, South Africa
+                        </p>
+                        <p class="overlay-occupation">
+                            Ux Designer
+                        </p>
+                        <p class="overlay-info">
+                            “Joining Capriqouta was a life change Experience
+                            From the Comfort of my home with great pay i think i have
+                            the best”
+                        </p>
+                        <p class="overlay-watch-video">
+                            <span class="iconify watch-video-review-icon" data-icon="bx:play-circle" data-width="40"
+                                data-height="40"></span>
+                            <span class="watch-video-review">Watch Video</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="slide inside-item inside-item-2">
+                    <div class="overlay-color">
+                    </div>
+                    <div class="write-overlay">
+                        <p class="overlay-title">
+                            Texas, United State
+                        </p>
+                        <p class="overlay-occupation">
+                            Ux Designer
+                        </p>
+                        <p class="overlay-info">
+                            “Joining Capriqouta was a life change Experience
+                            From the Comfort of my home with great pay i think i have
+                            the best”
+                        </p>
+                        <p class="overlay-watch-video">
+                            <span class="iconify watch-video-review-icon" data-icon="bx:play-circle" data-width="40"
+                                data-height="40"></span>
+                            <span class="watch-video-review">Watch Video</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="slide inside-item inside-item-3">
+                    <div class="overlay-color">
+                    </div>
+                    <div class="write-overlay">
+                        <p class="overlay-title">
+                            CapeTown, South Africa
+                        </p>
+                        <p class="overlay-occupation">
+                            Ux Designer
+                        </p>
+                        <p class="overlay-info">
+                            “Joining Capriqouta was a life change Experience
+                            From the Comfort of my home with great pay i think i have
+                            the best”
+                        </p>
+                        <p class="overlay-watch-video">
+                            <span class="iconify watch-video-review-icon" data-icon="bx:play-circle" data-width="40"
+                                data-height="40"></span>
+                            <span class="watch-video-review">Watch Video</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="slide inside-item inside-item-4">
+                    <div class="overlay-color">
+                    </div>
+                    <div class="write-overlay">
+                        <p class="overlay-title">
+                            CapeTown, South Africa
+                        </p>
+                        <p class="overlay-occupation">
+                            Ux Designer
+                        </p>
+                        <p class="overlay-info">
+                            “Joining Capriqouta was a life change Experience
+                            From the Comfort of my home with great pay i think i have
+                            the best”
+                        </p>
+                        <p class="overlay-watch-video">
+                            <span class="iconify watch-video-review-icon" data-icon="bx:play-circle" data-width="40"
+                                data-height="40"></span>
+                            <span class="watch-video-review">Watch Video</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="explore-remote-jobs-section">
+        <h1 class="why-apply-content-title explore-text-heading">
+            Explore remote jobs Based on skillls
+        </h1>
+        <h4 class="based-on-skill-text">
+            Based on Skill
+        </h4>
+        <div class="remote-jobs-image-container">
+            <div class="row">
+                <div class="col-lg-12">
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S1.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S2.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S3.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S4.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S5.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S6.png" alt="" class="remote-jobs-icons">
+                     </a>
+                </div>
+                <div class="col-lg-12">
+                     <a href="" class="remote-jobs-icons-link responsive-imgk">
+                         <img src="../assets/src/images/S8.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S9.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S10.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S11.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S12.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S13.png" alt="" class="remote-jobs-icons">
+                     </a>
+                 
+                </div>
+                <div class="col-lg-12">
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S15.png" alt="" class="remote-jobs-icons ">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S16.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S17.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S18.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S19.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S20.png" alt="" class="remote-jobs-icons">
+                     </a>
+                </div>
+                <div class="col-lg-12">
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S22.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S23.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S24.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S25.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S26.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S27.png" alt="" class="remote-jobs-icons">
+                     </a>
+                    
+                </div>
+                <div class="col-lg-12">
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S7.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S14.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S21.png" alt="" class="remote-jobs-icons">
+                     </a>
+                     <a href="" class="remote-jobs-icons-link responsive-img">
+                         <img src="../assets/src/images/S28.png" alt="" class="remote-jobs-icons">
+                     </a>
+                 </div>
+            </div>
+        </div>
+        <br> <br>
+        <a href="#" class="more-skills-link">See more Skills</a>
+    </div>
+    <div class="faq-section">
+        <h1 class="why-apply-content-title">Frequently Asked Questions</h1>
+        <div class="questions-container">
+            <div class="row g-5">
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question1arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">What is Capriquota?</p>
+                            <p class="faq-answer">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question2arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">How many rounds must I complete before being considered for
+                                selection?</p>
+                            <p class="faq-answer faq-answer2">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question3arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">How is Capriquota different from other remote based job providers?
+                            </p>
+                            <p class="faq-answer3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question4arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">Do I have to pay taxes in Nigeria or in my own country when I work
+                                with Capriquota?</p>
+                            <p class="faq-answer4">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question5arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">Are there any expenses involved using Capriquota's services?</p>
+                            <p class="faq-answer5">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question6arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">What kind of developers does Capriquota hire?</p>
+                            <p class="faq-answer6">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question7arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">What level of English is necessary to get a job?</p>
+                            <p class="faq-answer7">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question8arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">Does Capriquota hire fresh graduates?</p>
+                            <p class="faq-answer8">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question9arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">Do you have positions for any other profile apart from developers?
+                            </p>
+                            <p class="faq-answer9">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 inner-container-spacing">
+                    <div class="p-4 question-container-each">
+                        <div class="arrow-down-icon-container">
+                            <img src="../assets/src/images/open-answer.png" alt="" class="" id="question10arrow">
+                        </div>
+                        <div class="question-answers-container">
+                            <p class="faq-question">How is Capriquota different from other remote based job providers?
+                            </p>
+                            <p class="faq-answer10">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                                laborum facere. Repudiandae reprehenderit
+                                aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                                optio? Saepe quisquam voluptas repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="blog-section">
+        <h1 class="blog-section-heading">Latest post from Capriquota</h1>
+        <div class="owl-slider">
+            <div id="blogcarousel" class="owl-carousel">
+                <div class="blog-container-each">
+                    <div class="p-2 blog-post-container">
+                        <img src="../assets/src/images/blog-img1.png" alt="" class="blog-img">
+                        <div class="p-4">
+                            <p class="blog-post-title">
+                                Web Solution
+                            </p>
+                            <p class="blog-post-desc">
+                                Make a better website solution for your product.
+                            </p>
+                            <a href="#" class="blog-post-read-news">
+                                Read News <span class="iconify" data-icon="material-symbols:arrow-forward"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-container-each">
+                    <div class="p-2 blog-post-container">
+                        <img src="../assets/src/images/blog-img2.png" alt="" class="blog-img">
+                        <div class="p-4">
+                            <p class="blog-post-title">
+                                UI Interface
+                            </p>
+                            <p class="blog-post-desc">
+                                The Science of Color Contrast — An Expert Designer’s Guide
+                            </p>
+                            <a href="#" class="blog-post-read-news">
+                                Read News <span class="iconify" data-icon="material-symbols:arrow-forward"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-container-each">
+                    <div class="p-2 blog-post-container">
+                        <img src="../assets/src/images/blog-img3.png" alt="" class="blog-img">
+                        <div class="p-4">
+                            <p class="blog-post-title">
+                                Web Interface
+                            </p>
+                            <p class="blog-post-desc">
+                                SEO Made Simple: A Step by Step Guide for 2020
+                            </p>
+                            <a href="#" class="blog-post-read-news">
+                                Read News <span class="iconify" data-icon="material-symbols:arrow-forward"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-container-each">
+                    <div class="p-2 blog-post-container">
+                        <img src="../assets/src/images/blog-img4.png" alt="" class="blog-img">
+                        <div class="p-4">
+                            <p class="blog-post-title">
+                                Interface Design
+                            </p>
+                            <p class="blog-post-desc">
+                                Make a better website solution for your product.
+                            </p>
+                            <a href="#" class="blog-post-read-news">
+                                Read News <span class="iconify" data-icon="material-symbols:arrow-forward"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-container-each">
+                    <div class="p-2 blog-post-container">
+                        <img src="../assets/src/images/blog-img1.png" alt="" class="blog-img">
+                        <div class="p-4">
+                            <p class="blog-post-title">
+                                Web Solution
+                            </p>
+                            <p class="blog-post-desc">
+                                Make a better website solution for your product.
+                            </p>
+                            <a href="#" class="blog-post-read-news">
+                                Read News <span class="iconify" data-icon="material-symbols:arrow-forward"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-container-each">
+                    <div class="p-2 blog-post-container">
+                        <img src="../assets/src/images/blog-img2.png" alt="" class="blog-img">
+                        <div class="p-4">
+                            <p class="blog-post-title">
+                                UI Interface
+                            </p>
+                            <p class="blog-post-desc">
+                                The Science of Color Contrast — An Expert Designer’s Guide
+                            </p>
+                            <a href="#" class="blog-post-read-news">
+                                Read News <span class="iconify" data-icon="material-symbols:arrow-forward"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-container-each">
+                    <div class="p-2 blog-post-container">
+                        <img src="../assets/src/images/blog-img3.png" alt="" class="blog-img">
+                        <div class="p-4">
+                            <p class="blog-post-title">
+                                Web Interface
+                            </p>
+                            <p class="blog-post-desc">
+                                SEO Made Simple: A Step by Step Guide for 2020
+                            </p>
+                            <a href="#" class="blog-post-read-news">
+                                Read News <span class="iconify" data-icon="material-symbols:arrow-forward"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-container-each">
+                    <div class="p-2 blog-post-container">
+                        <img src="../assets/src/images/blog-img4.png" alt="" class="blog-img">
+                        <div class="p-4">
+                            <p class="blog-post-title">
+                                Interface Design
+                            </p>
+                            <p class="blog-post-desc">
+                                Make a better website solution for your product.
+                            </p>
+                            <a href="#" class="blog-post-read-news">
+                                Read News <span class="iconify" data-icon="material-symbols:arrow-forward"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <img src="../assets/src/images/scroll-top.svg" alt="" class="scroll-top-img" onclick="topFunction()">
+        <footer>
+            <img src="../assets/src/images/shape.png" alt="" class="footer-icon-style">
+            <div class="row first-footer-section">
+                <div class="col-lg-6 world-class-talent-div">
+                    <h1 class="world-class-talent-title">
+                        Leverage world class talent.
+                    </h1>
+                    <p class="world-class-talent-text">
+                        We are the world's largest and most widely spread network of vetted talents, ready to take on
+                        your most important tasks.
+                    </p>
+                </div>
+                <div class="row col-lg-6 join-cqt-div">
+                    <div class="row button-hire-join-container">
+                        <div class="col-lg-6 col-md-6 col-12 hire-a-talent-container">
+                            <button class="hire-a-talent-btn hiretalent">Hire A Talent</button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 join-cqt-container">
+                            <button class="join-cqt-btn joincqt_1">Join CQT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu-container-all row">
+                <div class="footer-logo-section col-lg-4 col-md-12 col-sm-12">
+                    <a href="index.html">
+                        <img src="../assets/src/images/logo.png" alt="" class="footer-menu-logo">
+                    </a>
+                    <p class="footer-menu-social-icon">
+                        <span class="iconify social-icon" data-icon="akar-icons:youtube-fill"></span> &nbsp; &nbsp;
+                        <span class="iconify social-icon" data-icon="akar-icons:instagram-fill"></span> &nbsp; &nbsp;
+                        <span class="iconify social-icon" data-icon="cib:facebook-f"></span> &nbsp; &nbsp;
+                        <span class="iconify social-icon" data-icon="akar-icons:twitter-fill"></span>
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                    <p class="first-footer-menu-title">Customers</p>
+                    <a class="footers-customers-categories" href="For-company.html">Hire Engineer</a>
+                    <a class="footers-customers-categories" href="For-designers.html">Hire Designer </a>
+                    <a class="footers-customers-categories" href="HireTalentPageSkillPage.html">Hire Team</a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                    <p class="first-footer-menu-title">Join Capriquota</p>
+                    <a class="footers-customers-categories" href="For-engineers.html">As Engineer</a>
+                    <a class="footers-customers-categories" href="For-designers.html">As Designers </a>
+                    <a class="footers-customers-categories" href="careerdescription.html">Career</a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                    <p class="first-footer-menu-title">Company</p>
+                    <a class="footers-customers-categories" href="About.html">About</a>
+                    <a class="footers-customers-categories" href="mediakits.html">Media Kit</a>
+                    <a class="footers-customers-categories" href="#">CLP</a>
+                    <a class="footers-customers-categories" href="contactPage.html">Contact Us </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+                    <p class="first-footer-menu-title">Media</p>
+                    <a class="footers-customers-categories" href="LifeatcqtPage.html">Life @ Capriquota</a>
+                    <a class="footers-customers-categories" href="#">Press</a>
+                    <a class="footers-customers-categories" href="Blog.html">Blog </a>
+                    <a class="footers-customers-categories" href="eventpage.html">Events</a>
+                </div>
+            </div>
+        </footer>
+        <hr class="footer-divided">
+        <div class="row subfooter-menu-container">
+            <p class="copyright-text col-lg-4">
+                Copyright © 2022. All rights reserved.
+            </p>
+            <p class="privacy-policy-text col-lg-2">
+                Privacy & policy
+            </p>
+            <p class="terms-conditions-text col-lg-2">
+                Terms & Conditions
+            </p>
+            <p class="code-of-conduct-text col-lg-4">
+                Code of Conducts
+            </p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.js'> </script>
+    <script src="../assets/src/owl-carousel/js/script.js"></script>
+    <script src="../assets/src/owl-carousel/js/navbar.js"></script>
+    <script src="../assets/src/owl-carousel/js/bxslider.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+<!-- Frequently asked questions -->
+
+
+<div class="faq-section container-fluid">
+    <h1 class="why-apply-content-title">Frequently Asked Questions</h1>
+    <div class="questions-container">
+        <div class="row g-5">
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question1arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question1arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">What is Capriquota?</p>
+                        <p class="faq-answer">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question2arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question2arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">How many rounds must I complete before being considered for
+                            selection?</p>
+                        <p class="faq-answer faq-answer2">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question3arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question3arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">How is Capriquota different from other remote based job providers?
+                        </p>
+                        <p class="faq-answer3">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question4arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question4arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">Do I have to pay taxes in Nigeria or in my own country when I work
+                            with Capriquota?</p>
+                        <p class="faq-answer4">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question5arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question5arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">Are there any expenses involved using Capriquota's services?</p>
+                        <p class="faq-answer5">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question6arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question6arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">What kind of developers does Capriquota hire?</p>
+                        <p class="faq-answer6">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question7arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question7arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">What level of English is necessary to get a job?</p>
+                        <p class="faq-answer7">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question8arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question8arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">Does Capriquota hire fresh graduates?</p>
+                        <p class="faq-answer8">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question9arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question9arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">Do you have positions for any other profile apart from developers?
+                        </p>
+                        <p class="faq-answer9">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 inner-container-spacing">
+                <div class="p-4 question-container-each" id="question10arrow">
+                    <div class="arrow-down-icon-container">
+                        <img src="../assets/src/images/open-answer.png" alt="" class="" id="question10arrowimg">
+                    </div>
+                    <div class="question-answers-container">
+                        <p class="faq-question">How is Capriquota different from other remote based job providers?
+                        </p>
+                        <p class="faq-answer10">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus temporibus
+                            laborum facere. Repudiandae reprehenderit
+                            aperiam molestias soluta. Ea asperiores commodi ex ut doloribus exercitationem aperiam
+                            optio? Saepe quisquam voluptas repellat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

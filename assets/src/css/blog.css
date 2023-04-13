@@ -1,0 +1,58 @@
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .owl-nav button.owl-prev {
+    left: 0;
+    /* display: none; */
+  }
+  .owl-nav button.owl-next {
+    right: 0;
+    /* display: none; */
+  }
+  
+  .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  #blogcarousel .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: gray !important;
+    margin: 0 3px;
+  }
+  #blogcarousel .owl-dots button.owl-dot.active {
+    background-color: #3C63B0 !important;
+  }
+  #blogcarousel .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  #blogcarousel .owl-nav button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #ffffff !important;
+      height: 55px;
+      width: 55px;
+      border-radius: 50%;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+
+  }
+ 
+  .owl-nav button:focus {
+      outline: none;
+  }
+
+
+
+  #blogcarousel span {
+      font-size: 70px;    
+      position: relative;
+      top: -30px;
+  }
